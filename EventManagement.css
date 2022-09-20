@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container-1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: url(./assets/images/pexels-pixabay-531321.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+.logoName{
+    display: flex;
+}
+#Bird-Icon{
+    /* display:inline-block; */
+    width:70px;
+    height: 70px;
+    margin-left: 185px;
+    margin-top: 40px;
+    /* filter: opacity(0.4) drop-shadow(0 0 0 white); */
+    background-color: black;
+}
+#pLogo{
+    width: 200px;
+    padding-top: 68px;
+    color: white;
+}
+#startupHeading{
+    color:rgb(198, 62, 62);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px rgb(198, 62, 62);
+}
+#Date{
+    margin-left: 175px;
+    margin-bottom: 70px;
+    color: white;
+}
+#listHeading{
+    margin-left: 175px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+#list{
+    margin-left: 175px;
+    list-style-position: inside;
+    list-style-type: none;
+    color: white;
+    
+}
+ul li:before{
+    content: '✓';
+}
+ul li{
+    margin-bottom: 20px;
+}
+#horizontalbreak{
+    width: 73%;
+    margin-left: 135px;
+}
+.icons{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+#semi-container-2{
+    border: 2px solid black;
+    margin-top: 70px;
+    margin-right: 110px;
+    height: 500px;
+    width: 350px;
+    background-color: white;
+}
+#BookyourseatHeading{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.icons{
+    margin-left: 30px;
+    margin-bottom: 13px;
+}
+.pLogoBox{
+    margin-left: 5px;
+}
+.details{
+    margin-left: 30px;
+}
+.inputbox{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 13px;
+}
+#registerbutton{
+    background-color:rgba(238, 16, 16, 0.808);
+    width: 230px;
+    height: 40px;
+    border: none;
+    margin-left: 12px;
+    color: white;
+    margin-bottom: 3px;
+}
+#pEvent{
+    margin-left: 73px;
+    margin-top: 4px;
+    font-size: 13px;
+}
+
+#container-2{
+    height: 500px;
+    background-color:rgb(231, 231, 231);
+}
+#SpeakersHeading{
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+.imgspeaker{
+    width: 120px;
+    height: 150px;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.speakertable{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.speakerbox{
+    width: 220px;
+    height: 280px;
+    background-color: white;
+    
+}
+.speakertextbox{
+    margin-left: 45px;
+}
+.eventgallery{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.eventbox{
+    text-align: center;
+    width: 300px;
+}
+.redcolor{
+    color:rgba(238, 16, 16, 0.808); 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.eventpara{
+    margin-bottom: 50px;
+}
+.eventheading{
+    padding-bottom: 5px;
+}
+#container-4{
+    background-color:rgb(231, 231, 231);
+    height: 550px;
+}
+.sponsorHeading{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.sponsorgallery{
+    width: 100px;
+    height: 80px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#horizontalline{
+    border-color: black;
+    width: 80%;
+    margin-left: 130px;
+}
+#verticalline{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 150px;
+    padding-right: 150px;
+}
